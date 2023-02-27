@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "Rohit Sharma",
+      "email": "rohit@gmail.com",
+      "username": "rohitsharma",
+      "phone": "8839617601",
+      "id": 1
+    },
+    {
+      "name": "virat",
+      "username": "kohli",
+      "email": "kohli@gmail.com",
+      "phone": "676767676767",
+      "id": 2
+    },
+    {
+      "name": "Ipshita",
+      "username": "liti",
+      "email": "darkroomstories@gmail.com",
+      "phone": "23232323",
+      "id": 3
+    },
+    {
+      "name": "i",
+      "username": "kohli",
+      "email": "darkroomstories@gmail.com",
+      "phone": "7676767676",
+      "id": 4
+    },
+    {
+      "name": "sasasasa",
+      "username": "assssssssssssssssssssssssssss",
+      "email": "dfsssssssssssssss@gmail.com",
+      "phone": "676767676767",
+      "id": 5
+    },
+    {
+      "name": "sasasasa",
+      "username": "assssssssssssssssssssssssssss",
+      "email": "dfsssssssssssssss@gmail.com",
+      "phone": "676767676767",
+      "id": 6
+    },
+    {
+      "name": "abhi",
+      "username": "abhishel",
+      "email": "darkroomstories@gmail.com",
+      "phone": "56565656",
+      "id": 7
+    },
+    {
+      "name": "abhi",
+      "username": "abhishel",
+      "email": "darkroomstories@gmail.com",
+      "phone": "56565656",
+      "id": 8
+    },
+    {
+      "name": "ipshita Dash",
+      "username": "Dash",
+      "email": "dash@gmAIL.COM",
+      "phone": "45454545",
+      "id": 9
+    },
+    {
+      "name": "ipshita Dash",
+      "username": "Dash",
+      "email": "dash@gmAIL.COM",
+      "phone": "45454545",
+      "id": 10
+    }
+  ]
+}
