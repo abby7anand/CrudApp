@@ -1,73 +1,45 @@
 {
   "users": [
     {
-      "name": "Rohit Sharma",
-      "email": "rohit@gmail.com",
-      "username": "rohitsharma",
-      "phone": "8839617601",
-      "id": 1
-    },
-    {
-      "name": "virat",
-      "username": "kohli",
-      "email": "kohli@gmail.com",
-      "phone": "676767676767",
-      "id": 2
-    },
-    {
-      "name": "Ipshita",
-      "username": "liti",
-      "email": "darkroomstories@gmail.com",
-      "phone": "23232323",
-      "id": 3
-    },
-    {
-      "name": "i",
-      "username": "kohli",
-      "email": "darkroomstories@gmail.com",
-      "phone": "7676767676",
+      "name": "Mohd Shami",
+      "username": "mohdshami",
+      "email": "shamikhan@gmail.com",
+      "phone": "7896547896",
       "id": 4
     },
     {
-      "name": "sasasasa",
-      "username": "assssssssssssssssssssssssssss",
-      "email": "dfsssssssssssssss@gmail.com",
-      "phone": "676767676767",
-      "id": 5
-    },
-    {
-      "name": "sasasasa",
-      "username": "assssssssssssssssssssssssssss",
-      "email": "dfsssssssssssssss@gmail.com",
-      "phone": "676767676767",
+      "name": "Shikhar Dhawan",
+      "username": "dhawansikhar",
+      "email": "dhawan@gmail.com",
+      "phone": "4569874563",
       "id": 6
     },
     {
-      "name": "abhi",
-      "username": "abhishel",
-      "email": "darkroomstories@gmail.com",
-      "phone": "56565656",
+      "name": "Testjob",
+      "username": "admin",
+      "email": "abbyanand7@gmail.com",
+      "phone": "8839617601",
       "id": 7
     },
     {
-      "name": "abhi",
-      "username": "abhishel",
-      "email": "darkroomstories@gmail.com",
-      "phone": "56565656",
+      "name": "Testjob",
+      "username": "admin",
+      "email": "abbyanand7@gmail.com",
+      "phone": "8839617601",
       "id": 8
     },
     {
-      "name": "ipshita Dash",
-      "username": "Dash",
-      "email": "dash@gmAIL.COM",
-      "phone": "45454545",
+      "name": "Abhishek Anand",
+      "username": "abhishek.anand.",
+      "email": "sanketjari1998@gmail.com",
+      "phone": "8839617601",
       "id": 9
     },
     {
-      "name": "ipshita Dash",
-      "username": "Dash",
-      "email": "dash@gmAIL.COM",
-      "phone": "45454545",
+      "name": "Abhishek Anand",
+      "username": "abhishek.anand.",
+      "email": "sanketjari1998@gmail.com",
+      "phone": "8839617601",
       "id": 10
     }
   ]

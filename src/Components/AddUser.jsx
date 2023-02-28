@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 import {
   FormControl,
   Input,
@@ -22,7 +22,7 @@ const initialInfo = {
 const AddUser = () => {
   const [info, setInfo] = useState(initialInfo);
 
-  const navigate= useNavigate()
+  const navigate = useNavigate();
 
   const handleValueChange = (e) => {
     setInfo({ ...info, [e.target.name]: e.target.value });
@@ -30,7 +30,7 @@ const AddUser = () => {
   };
   const handleAddUser = async () => {
     await addUser(info);
-    navigate('/all')
+    navigate("/all");
   };
 
   return (

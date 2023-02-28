@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:3002/users";
+const API_URL = "http://127.0.0.1:3004/users";
 
 export const addUser = async (data) => {
   //   console.log("data in adduser", data);
@@ -12,7 +12,7 @@ export const addUser = async (data) => {
   }
 };
 
-export const getUsers = async () => {
+export const getUsers = async (id) => {
   try {
     return await axios.get(API_URL);
   } catch (error) {
@@ -28,10 +28,18 @@ export const getUser = async (data) => {
   }
 };
 
-export const editUser =async (data,id) => {
+export const editUser = async (data, id) => {
   try {
-    return await axios.put(`${API_URL}/${id}`,data)
+    return await axios.put(`${API_URL}/${id}`, data);
   } catch (error) {
-    console.log("Error while calling editUser api ::", error.message)
+    console.log("Error while calling editUser api ::", error.message);
+  }
+};
+
+export const deleteUser = async (id) => {
+  try {
+    return await axios.delete(`${API_URL}/${id}`);
+  } catch (error) {
+    console.log("Error while calling deleteUser api ::", error.message);
   }
 };
