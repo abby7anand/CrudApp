@@ -114,7 +114,7 @@ const EditUser = () => {
 
   useEffect(() => {
     getUserData();
-  });
+  },[]);
 
   const getUserData = async () => {
     let response = await getUser(id);
@@ -152,7 +152,7 @@ const EditUser = () => {
           sx={{ mt: "10px" }}
           onChange={(e) => handleValueChange(e)}
           name="phone"
-        //   value={info.phone}
+          value={info.phone}
         >
           Phone
         </TextField>

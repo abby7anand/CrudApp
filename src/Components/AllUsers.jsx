@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { getUsers } from "../service/api";
+import { deleteUser, getUsers } from "../service/api";
 
 const AllUsers = () => {
   const [users, setUsers] = useState([]);
@@ -20,6 +20,10 @@ const AllUsers = () => {
   const getUserDetails = async () => {
     const response = await getUsers();
     setUsers(response.data);
+  };
+  const deleteUserData = async (id) => {
+    await deleteUser(id);
+    await getUserDetails();
   };
 
   return (
@@ -52,10 +56,19 @@ const AllUsers = () => {
               <TableCell>{user.email}</TableCell>
               <TableCell>{user.phone}</TableCell>
               <TableCell>
-                <Button variant="contained" sx={{ marginRight: "10px" }} component={Link} to={`/edit/${user.id}`}>
+                <Button
+                  variant="contained"
+                  sx={{ marginRight: "10px" }}
+                  component={Link}
+                  to={`/edit/${user.id}`}
+                >
                   Edit
                 </Button>
-                <Button variant="contained" color="secondary">
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  onClick={() => deleteUserData(user.id)}
+                >
                   Delete
                 </Button>
               </TableCell>
